@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header className='bg-slate-200 shadow-md'>
-        <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
+        <div className='flex justify-between  items-center max-w-6xl mx-auto p-3'>
             <Link to='/'>
-        <h1 className='font-bold text-sm sm:text-xl flex flex-wrap '>
+        <h1 className='font-bold text-sm sm:text-xl flex flex-wrap text-'>
             <span className='text-cyan-600 '>Pariwar</span>
             <span className='text-pink-400'>Place</span>
         </h1>
