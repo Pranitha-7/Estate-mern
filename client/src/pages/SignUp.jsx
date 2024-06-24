@@ -56,10 +56,10 @@ export default function signup() {
         <input type="text" placeholder='usernname!'
          className='border p-3 rounded-xl' id='username' 
          onChange={handleChange}/>
-          <input type="text" placeholder='email!!' 
+          <input type="email" placeholder='email!!' 
           className='border p-3 rounded-xl' id='email'
           onChange={handleChange}/>
-           <input type="text" placeholder='Password!'
+           <input type="password" placeholder='Password!'
             className='border p-3 rounded-xl' id='password'
             onChange={handleChange}/>
             <button disabled={loading} className='bg-green-500 text-black p-3 rounded-2xl uppercase hover:opacity-95
