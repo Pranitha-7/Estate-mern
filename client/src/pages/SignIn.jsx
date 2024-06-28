@@ -59,7 +59,7 @@ export default function SignIn() {
            <input type="password" placeholder='Password!'
             className='border p-3 rounded-xl' id='password'
             onChange={handleChange}/>
-            <button disabled={loading} className='bg-green-500 text-black p-3 rounded-2xl uppercase hover:opacity-95
+            <button disabled={loading} className='bg-sky-400 text-black p-3 rounded-2xl uppercase hover:opacity-95
             disabled:opacity-80'>
               {loading?'Loading.....':'Sign In'}
             </button>
