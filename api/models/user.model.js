@@ -18,6 +18,7 @@ const userSchema = new mongoose.Schema(
     },
     avatar: {
       type: String,
+      default:"https://png.pngtree.com/png-vector/20240426/ourmid/pngtree-free-barbie-doll-on-simple-background-png-image_12330080.png",
     },
   },
   { timestamps: true }
