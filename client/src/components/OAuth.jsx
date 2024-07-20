@@ -40,5 +40,5 @@ export default function OAuth() {
     >
       Continue with google
     </button>
-  );
+  );
 }

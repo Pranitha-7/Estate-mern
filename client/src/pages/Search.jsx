@@ -242,7 +242,7 @@ export default function Search() {
             </select>
 
               </div>
-              <button className= 'bg-pink-800 text-white p-3 rounded-lg uppercase hover:opacity-95'>
+              <button className= 'bg-purple-800 text-white p-3 rounded-lg uppercase hover:opacity-95'>
                 Search
               </button>
             </form>

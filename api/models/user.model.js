@@ -16,9 +16,9 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    avatar: {
+    avatar:{
       type: String,
-      default:"https://png.pngtree.com/png-vector/20240426/ourmid/pngtree-free-barbie-doll-on-simple-background-png-image_12330080.png",
+      default: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
     },
   },
   { timestamps: true }
